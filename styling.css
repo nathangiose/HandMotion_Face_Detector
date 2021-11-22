@@ -1,5 +1,11 @@
 @import url("https://fonts.googleapis.com/css2?family=Montagu+Slab:wght@100&family=Roboto:wght@300&display=swap");
 
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
 body {
   /* padding: 20px; */
   background: rgba(0, 0, 0, 0.2);
@@ -74,4 +80,14 @@ i::before {
   border: none;
   box-shadow: none;
   display: hidden;
+}
+
+@media only screen and (max-width: 600px) {
+  body {
+    background-color: lightblue;
+  }
+
+  .canvasbox {
+    width: 85%;
+  }
 }
