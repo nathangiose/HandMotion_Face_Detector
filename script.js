@@ -51,9 +51,9 @@ function runDetection() {
     });
 }
 
-// Load the model.
+// Loading the model.
 handTrack.load(modelParams).then(lmodel => {
-    // detect objects in the image.
+    // Detect the objects in the image.
     model = lmodel
     updateNote.innerText = "Click on Toggle Video"
     trackButton.disabled = false
