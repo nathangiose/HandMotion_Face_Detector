@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hand Detection</title>
+    <!-- ICON -->
+    <link rel="shortcut icon" type="image/x-icon" href="https://i.postimg.cc/SxH9h89Q/Screenshot-2021-05-16-Nathan-John-Giose.png">
+    <!-- CSS -->
+    <link rel="stylesheet" href="styling.css">
+    <!-- FONT AWESOME -->
+    <script src="https://kit.fontawesome.com/07c41cdf40.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    
+</body>
+</html>
+
+<body class="p20">
+  <div class="p20">
+  <p>Hand Tracking for canvas</p> 
+  </div>
+  <div class="mb10">
+    <button onclick="toggleVideo()" id="trackbutton" type="button">
+      Toggle Video
+    </button>
+    <div id="updatenote" class="updatenote mt10">Loading</div>
+  </div>
+  <video class="videobox canvasbox" autoplay="autoplay" id="myvideo"></video>
+
+  <canvas id="canvas" class="border canvasbox"></canvas>
+
+  <script src="https://unpkg.com/carbon-components@latest/scripts/carbon-components.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/handtrackjs/dist/handtrack.min.js"> </script>
+  <script src="script.js"></script>
+</body>
+
+</html>

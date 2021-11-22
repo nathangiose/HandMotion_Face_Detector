@@ -1,0 +1,58 @@
+@import url("https://fonts.googleapis.com/css2?family=Montagu+Slab:wght@100&family=Roboto:wght@300&display=swap");
+
+body {
+  /* padding: 20px; */
+  background: rgba(0, 0, 0, 0.2);
+  height: 100vh;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  font-family: "Montagu Slab", serif;
+  margin: 0;
+}
+
+p {
+  font-family: "Montagu Slab";
+  padding: 20px;
+  font-size: 22px;
+  font: bold;
+}
+
+.canvasbox {
+  /* border-radius: 3px; */
+  /* margin-right: 10px; */
+  width: 450px;
+  /* height: 338px; */
+  /* border-bottom: 3px solid #0063ff; */
+  box-shadow: 0 2px 3px 0 rgba(0, 0, 0, 0.2), 0 4px 10px 0 #00000030;
+  /* background: rgb(17, 0, 0); */
+  width: auto;
+  /* height: 60%; */
+  border: 3px solid black;
+}
+
+.updatenote {
+  padding: 10px;
+  border-radius: 5px;
+  background: red;
+  color: white;
+  display: inline;
+  border: none;
+}
+
+#trackbutton {
+  border-radius: 5px;
+  border: none;
+  padding: 10px;
+  display: inline;
+}
+
+#trackbutton:hover {
+  cursor: pointer;
+}
+
+#trackbutton::after {
+  background-color: green;
+}
